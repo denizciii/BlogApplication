@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Inci DENIZCI</h1>
+    <p>Personal Blog</p>
+</div>
+
+<!-- Navigation Links -->
+<div class="text-center mt-4">
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="About">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Blog Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2018/05/13/18/25/night-3397370_1280.jpg" class="card-img-top" alt="Blog 1">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG1</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog1", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://ceyhunozdemir.com/wp-content/uploads/2024/02/nar-768x512.jpg" class="card-img-top" alt="Blog 2">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG2</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog2", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://ceyhunozdemir.com/wp-content/uploads/2023/12/kitap-kapagi-768x512.jpg" class="card-img-top" alt="Blog 3">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG3</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog3", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Card 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://ceyhunozdemir.com/wp-content/uploads/2023/10/gonul-768x1152.jpg" class="card-img-top" alt="Blog 4">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG4</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog4", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Card 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://ceyhunozdemir.com/wp-content/uploads/2023/11/cadde-768x960.jpg" class="card-img-top" alt="Blog 5">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG5</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog5", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Card 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://ceyhunozdemir.com/wp-content/uploads/2023/08/pexels-krivec-ales-547114-768x509.jpg" class="card-img-top" alt="Blog 6">
+                <div class="card-body">
+                    <h5 class="card-title">BLOG6</h5>
+                    <p class="card-text">Bu blog yazısının kısa bir özeti burada yer alacak...</p>
+                    <a href="@Url.Action("Blog6", "Home")" class="btn btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
